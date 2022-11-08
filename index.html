@@ -13,9 +13,9 @@
     <title>Document</title>
 </head>
 <body>
+
     <header>
-<!-------------------------Navbar------------------------->
-        <nav class="navbar navbar-expand-lg navbar-light  w-100 m-auto d-flex justify-content-between align-items-center nav-fixed">
+        <nav class="navbar navbar-expand-lg navbar-light w-100 m-auto d-flex justify-content-between align-items-center nav-fixed">
             <a class="navbar-brand logo-navbar ps-5" href="./index.html"><img class="logo" src="./images/logo.png" alt="#"></a>
             <div class="menu d-flex justify-content-between align-items-center">
                 <ul class="navbar-nav d-flex justify-content-around align-items-center px-5">
@@ -23,7 +23,7 @@
                         <a class="nav-link" href="./eroor404.html"><i class="text-white">L'EQUIPE</i></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./eroor404.html"><i class="text-white">LES ACTIVITES</i></a>
+                        <a class="nav-link" href="./activity.html"><i class="text-white">LES ACTIVITES</i></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./eroor404.html"><i class="text-white">NOS OFFRES</i></a>
@@ -35,7 +35,7 @@
                         <a class="nav-link" href="./eroor404.html"><i class="text-white">LE BLOG</i></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./index_3.html"><i class="text-white">CONTACT</i></a>
+                        <a class="nav-link" href="./contact.html"><i class="text-white">CONTACT</i></a>
                     </li>
                 </ul> 
                 <ul class="list-unstyled nav-item m-auto px-5">    
@@ -59,7 +59,6 @@
         </nav>
     </header> 
 
-<!-------------------------Slider 1------------------------->
     <section class="content-slider">
         <div id="carouselExampleIndicators" class="carousel carousel-dark slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
@@ -68,7 +67,7 @@
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
-                <div class="carousel-item active ">
+                <div class="carousel-item active d-flex">
                     <img src="./images/slider/slide_1.jpg" class="d-block w-100 h-100vh" alt=".error">
                     <div class="text-slider carousel-caption text-light mb-5">
                         <h5 class="textButton first-title my-font-family">2 INSCRIPTION SIMULTANÉES = UN 3ème ABONNEMENT DE 6 MOIS OFFERT !</h5>
@@ -99,7 +98,6 @@
         </div>
     </section>
 
-<!-------------------------Texte------------------------->
     <section>
         <div class="container">
             <div class="text col-md-12 mx-auto">
@@ -115,13 +113,12 @@
         </div>
     </section>
 
-<!-------------------------Card Zoom------------------------->
     <section class="activity-galery">
         <div class="container-fluid mt-5 mb-5">
             <h2 class="text-center fs_title">LES ACTIVITES PROPOSEES AU STUDIO SPORT BIARRITZ</h2><div class="underline_gold"></div>
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 pt-5">
-                <div class="activity-one col g-0 d-flex align-items-center justify-content-center zoom">
-                    <div class="text-center">
+            <div class="row row-cols-2 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 pt-5">
+                <div class="activity-one g-0 d-flex align-items-center justify-content-center zoom">
+                    <div class="text-center p-1">
                         <img src="./images/activites/icon_poids.png" class="img-fluid" alt="error">
                         <div class="body text-white fs-4">
                             <h4 class="title"><strong>PERSONNAL TRAINNING</strong></h4>
@@ -131,7 +128,7 @@
                     </div>
                 </div>
                 <div class="activity-two col g-0 d-flex align-items-center justify-content-center zoom">
-                    <div class="text-center">
+                    <div class="text-center p-1">
                         <img src="./images/activites/icon_velo.png" class="img-fluid" alt="error">
                         <div class="body text-white fs-4">
                             <h4 class="title"><strong>CYCLING</strong></h4>
@@ -141,7 +138,7 @@
                     </div>
                 </div>
                 <div class="activity-three col g-0 d-flex align-items-center justify-content-center zoom">
-                    <div class="text-center">
+                    <div class="text-center p-1">
                         <img src="./images/activites/icon_corde.png" class="img-fluid" alt="error">
                         <div class="body text-white fs-4">
                             <h4 class="title"><strong>PERSONNAL FONCTIONNEL</strong></h4>
@@ -151,7 +148,7 @@
                     </div>
                 </div>
                 <div class="activity-four col g-0 d-flex align-items-center justify-content-center zoom">
-                    <div class="text-center">
+                    <div class="text-center p-1">
                         <img src="./images/activites/icon_alter.png" class="img" alt="error">
                         <div class="body text-white fs-4">
                             <h4 class="title"><strong>CROSSFIT</strong></h4>
@@ -164,7 +161,6 @@
         </div>
     </section>
 
-<!-------------------------Card Actuality------------------------->
     <section>
         <div class="container pb-5">
             <h2 class="text-center fs_title">NOS DERNIERES ACTUALITÉSS</h2><div class="underline_gold"></div>
@@ -200,15 +196,14 @@
         </div>
     </section>
 
-<!-------------------------Footer------------------------->
 <footer class="bg-grey text-white pt-3">
-    <!-------------------------Text Footer------------------------->
+    
     <h2 class="text-center pt-5 fs_title">STUDIO SPORT & COACHING, NOS PARTENAIRES</h2>
     <div class="underline_gold"></div>
     <p class="text text-center fs-5 pt-3 pb-3">En tant que membre du Studio Sport & Coaching, vous bénéficierez dans ces établissement d'avantages exclusifs. 
         <a href="./index_2.html" class="text-brown">Cliquez ici</a> pour en savoir plus.
     </p>
-        <!-------------------------Partenaire------------------------->
+
     <div class="container d-flex">
         <div class="row row-cols-3 row-cols-sm-5 row-cols-md-5 row-cols-lg-5">
             <div class="col d-flex align-items-center justify-content-center">
@@ -229,7 +224,6 @@
         </div>
     </div>
 
-    <!-------------------------Link resaux + like and message------------------------->
     <div>
         <div class="container-fluid pt-5">
             <div class="row row-cols-3 row-cols-sm-3 row-cols-md-3 row-cols-lg-6">
@@ -291,15 +285,14 @@
         </div>
     </div> 
 
-    <!-------------------------Bloc Rgpd------------------------->
     <section class="bloc_rgpd pt-5">
-        <div class="container mb-5 text-footer text-white text-footer">
-            <div class="row row-cols-1 row-cols-sm-3 row-cols-md-3">
+        <div class="container mb-5 text-white text-footer">
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-3">
                 <div class="col-md-4">
+                    <img src="./images/logo_footer.png" alt="error">
+                    <h5 class="my-font-family txt-center">A PROPOS</h5>
                     <ul class="list-unstyled text-white txt-center">
-                        <li class="logo-footer text-white d-flex align-items-center me-auto">
-                        <img src="./images/logo_footer.png" alt="error">
-                        <h5 class="my-font-family txt-center">A PROPOS</h5>
+                        <li class="logo-footer text-white d-flex align-items-center me-auto"></li>
                         <li>2018 © Studio Sport Biarritz</li>
                         <li>Salle de sport, de fitness et de crossfit à</li>
                         <li>Biarritz - RCS:000 000 000</li>
@@ -309,7 +302,7 @@
                     </ul>
                 </div>
                 <div class="col-md-4">
-                    <h5 class="text-white txt-center">STUDIO SPORT CORPORATE</h5>
+                    <h5 class="text-white text-center">STUDIO SPORT CORPORATE</h5>
                     <ul class="liste list-unstyled txt-center">
                         <li>
                             <a class="text-white text-decoration-none" href="./eroor404.html">-Studio Center : créez votre studio</a>
@@ -347,7 +340,6 @@
     </section>
 </footer> 
 
-<!-------------------------Script------------------------->
     <script
         src="https://code.jquery.com/jquery-3.2.1.min.js"
         integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="

@@ -22,3 +22,8 @@ body {
     width: 24px;
     height: 24px;
 }
+
+.text-404 {
+    font-weight: 300;
+    line-height: 1.2;
+}

@@ -1,4 +1,4 @@
-//--------------------------------------------------MENU  HAMBURGER--------------------------------------------------//
+//--------------------------------------------------MENU NAVBAR SCROLL COLOR--------------------------------------------------//
     window.addEventListener('scroll', function () {
     let header = document.querySelector('header');
     let windowPosition = window.scrollY > 0;
@@ -129,6 +129,7 @@ let myRegexmail = /^\w+([.-]?\w+)@\w+([.-]?\w+)(.\w{2,3})+$/;
             sujet.style.borderColor = "green";
           }
 
+        
           //Form message
         if (message.value === "") {
             error_message.innerHTML = "Veuillez saisire votre Message !";
@@ -136,9 +137,9 @@ let myRegexmail = /^\w+([.-]?\w+)@\w+([.-]?\w+)(.\w{2,3})+$/;
             message.style.borderColor = "red";
             e.preventDefault();
           } else if (!myRegex.test(message.value)) {
-            error_message.innerHTML = "Veuillez enterz une auter valeur !";
-            error_message.style.color = "red";
-            message.style.borderColor = "red";
+            error_message.innerHTML = "Veuillez entrer une auter valeur !";
+            error_message.style.color = "warning";
+            message.style.borderColor = "warning";
             e.preventDefault();
           } else {
             error_message.innerHTML = "";
